@@ -1,8 +1,8 @@
 all:
-	rm -fr vendor/include
+	rm -fr vendor
 	cmake -S . -B build
 	cmake --build build
 
 clean:
-	rm -fr build
+	rm -fr build vendor
 	rm -fr ../cmake/tmp
