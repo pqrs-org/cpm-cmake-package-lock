@@ -5,4 +5,3 @@ all:
 
 clean:
 	rm -fr build vendor
-	rm -fr ../cmake/tmp

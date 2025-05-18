@@ -1,4 +1,5 @@
-set(CPM_SOURCE_CACHE "${CMAKE_CURRENT_LIST_DIR}/tmp/cpm/source_cache")
+get_filename_component(_HOME_DIR "~" REALPATH)
+set(CPM_SOURCE_CACHE "${_HOME_DIR}/.local/cpm-cmake/source_cache")
 
 add_custom_target(vendor_files ALL)
 
