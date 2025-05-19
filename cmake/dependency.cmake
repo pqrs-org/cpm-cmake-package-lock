@@ -21,6 +21,7 @@ set(_DEPS_pqrs_cf_url "pqrs_cf_string")
 set(_DEPS_pqrs_dispatcher "pqrs_thread_wait")
 set(_DEPS_pqrs_hid
   "pqrs_hash"
+  "pqrs_json"
   "type_safe"
 )
 set(_DEPS_pqrs_json
