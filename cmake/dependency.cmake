@@ -66,6 +66,7 @@ set(_DEPS_pqrs_osx_input_source
   "pqrs_cf_string"
   "pqrs_gcd"
   "pqrs_hash"
+  "pqrs_json"
 )
 set(_DEPS_pqrs_osx_input_source_monitor
   "nod"
