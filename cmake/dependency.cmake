@@ -74,6 +74,7 @@ set(_DEPS_pqrs_osx_input_source_monitor
 )
 set(_DEPS_pqrs_osx_input_source_selector
   "pqrs_dispatcher"
+  "pqrs_json"
   "pqrs_osx_input_source"
 )
 set(_DEPS_pqrs_osx_iokit_hid_device
