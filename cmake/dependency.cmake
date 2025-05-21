@@ -156,7 +156,11 @@ set(_DEPS_pqrs_osx_json_file_monitor
   "pqrs_osx_file_monitor"
 )
 set(_DEPS_pqrs_osx_launch_services "pqrs_cf_string")
-set(_DEPS_pqrs_osx_launchctl "type_safe")
+set(_DEPS_pqrs_osx_launchctl
+  "pqrs_process"
+  "pqrs_string"
+  "type_safe"
+)
 set(_DEPS_pqrs_osx_machine
   "pqrs_cf_string"
   "type_safe"
