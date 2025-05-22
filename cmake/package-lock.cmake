@@ -90,6 +90,7 @@ set(_FILES_asio
 set(_FILES_cxxopts "include/cxxopts.hpp -> include/cxxopts.hpp")
 set(_FILES_debug_assert "debug_assert.hpp -> include/debug_assert.hpp")
 set(_FILES_exprtk "exprtk.hpp -> include/exprtk/exprtk.hpp")
+set(_FILES_glob "single_include/glob/glob.hpp -> include/glob/glob.hpp")
 set(_FILES_gsl "include/gsl -> include/gsl")
 set(_FILES_natural_sort "natural_sort.hpp -> include/natural_sort.hpp")
 set(_FILES_pqrs_osx_frontmost_application_monitor
