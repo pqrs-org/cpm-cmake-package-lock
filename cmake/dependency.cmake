@@ -174,12 +174,13 @@ set(_DEPS_pqrs_osx_session
   "pqrs_dispatcher"
 )
 set(_DEPS_pqrs_osx_system_preferences
-  "pqrs_cf_dictionary"
+  "pqrs_cf_array"
   "pqrs_cf_number"
   "pqrs_cf_string"
   "pqrs_hash"
   "pqrs_hid"
   "pqrs_osx_iokit_types"
+  "pqrs_osx_kern_return"
 )
 set(_DEPS_pqrs_osx_system_preferences_monitor
   "nod"
