@@ -19,6 +19,7 @@ set(_DEPS_pqrs_cf_set "pqrs_cf_cf_ptr")
 set(_DEPS_pqrs_cf_string "pqrs_cf_cf_ptr")
 set(_DEPS_pqrs_cf_url "pqrs_cf_string")
 set(_DEPS_pqrs_dispatcher "pqrs_thread_wait")
+set(_DEPS_pqrs_environment_variable "pqrs_string")
 set(_DEPS_pqrs_hid
   "pqrs_hash"
   "pqrs_json"
