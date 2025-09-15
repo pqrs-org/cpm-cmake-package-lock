@@ -35,7 +35,7 @@ CPMDeclarePackage(pqrs_osx_accessibility                      NAME pqrs_osx_acce
 CPMDeclarePackage(pqrs_osx_cg_display                         NAME pqrs_osx_cg_display                         GITHUB_REPOSITORY pqrs-org/cpp-osx-cg_display                         GIT_TAG v1.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_cg_event                           NAME pqrs_osx_cg_event                           GITHUB_REPOSITORY pqrs-org/cpp-osx-cg_event                           GIT_TAG v1.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_chrono                             NAME pqrs_osx_chrono                             GITHUB_REPOSITORY pqrs-org/cpp-osx-chrono                             GIT_TAG v2.3.0                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(pqrs_osx_codesign                           NAME pqrs_osx_codesign                           GITHUB_REPOSITORY pqrs-org/cpp-osx-codesign                           GIT_TAG v1.1.0                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_osx_codesign                           NAME pqrs_osx_codesign                           GITHUB_REPOSITORY pqrs-org/cpp-osx-codesign                           GIT_TAG v1.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_file_monitor                       NAME pqrs_osx_file_monitor                       GITHUB_REPOSITORY pqrs-org/cpp-osx-file_monitor                       GIT_TAG v1.7.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_input_source                       NAME pqrs_osx_input_source                       GITHUB_REPOSITORY pqrs-org/cpp-osx-input_source                       GIT_TAG v3.5.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_input_source_monitor               NAME pqrs_osx_input_source_monitor               GITHUB_REPOSITORY pqrs-org/cpp-osx-input_source_monitor               GIT_TAG v1.3.0                                      DOWNLOAD_ONLY true)
@@ -77,7 +77,7 @@ CPMDeclarePackage(pqrs_weakify                                NAME pqrs_weakify 
 CPMDeclarePackage(spdlog                                      NAME spdlog                                      GITHUB_REPOSITORY gabime/spdlog                                       GIT_TAG v1.15.3                                     DOWNLOAD_ONLY true)
 CPMDeclarePackage(type_safe                                   NAME type_safe                                   GITHUB_REPOSITORY foonathan/type_safe                                 GIT_TAG v0.2.4                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(ut                                          NAME ut                                          GITHUB_REPOSITORY boost-ext/ut                                        GIT_TAG v2.3.1                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(utfcpp                                      NAME utfcpp                                      GITHUB_REPOSITORY nemtrif/utfcpp                                      GIT_TAG v4.0.6                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(utfcpp                                      NAME utfcpp                                      GITHUB_REPOSITORY nemtrif/utfcpp                                      GIT_TAG v4.0.7                                      DOWNLOAD_ONLY true)
 
 #
 # Extra Package Info
