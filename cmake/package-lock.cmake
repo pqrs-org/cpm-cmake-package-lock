@@ -77,7 +77,7 @@ CPMDeclarePackage(pqrs_weakify                                NAME pqrs_weakify 
 CPMDeclarePackage(spdlog                                      NAME spdlog                                      GITHUB_REPOSITORY gabime/spdlog                                       GIT_TAG v1.15.3                                     DOWNLOAD_ONLY true)
 CPMDeclarePackage(type_safe                                   NAME type_safe                                   GITHUB_REPOSITORY foonathan/type_safe                                 GIT_TAG v0.2.4                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(ut                                          NAME ut                                          GITHUB_REPOSITORY boost-ext/ut                                        GIT_TAG v2.3.1                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(utfcpp                                      NAME utfcpp                                      GITHUB_REPOSITORY nemtrif/utfcpp                                      GIT_TAG v4.0.7                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(utfcpp                                      NAME utfcpp                                      GITHUB_REPOSITORY nemtrif/utfcpp                                      GIT_TAG v4.0.8                                      DOWNLOAD_ONLY true)
 
 #
 # Extra Package Info
