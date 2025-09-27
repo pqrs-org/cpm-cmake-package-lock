@@ -34,6 +34,7 @@ set(_DEPS_pqrs_local_datagram
   "asio"
   "nod"
   "pqrs_dispatcher"
+  "pqrs_gsl"
 )
 set(_DEPS_pqrs_osx_accessibility "pqrs_cf_dictionary")
 set(_DEPS_pqrs_osx_cg_display "pqrs_osx_cg_event")
