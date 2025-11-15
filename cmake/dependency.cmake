@@ -194,6 +194,10 @@ set(_DEPS_pqrs_process
   "nod"
   "pqrs_dispatcher"
 )
+set(_DEPS_pqrs_regex
+  "pqrs_hash"
+  "pqrs_json"
+)
 set(_DEPS_pqrs_shell "pqrs_string")
 set(_DEPS_pqrs_spdlog
   "nod"
