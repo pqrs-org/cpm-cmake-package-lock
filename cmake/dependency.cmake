@@ -1,5 +1,6 @@
 set(_DEPS_type_safe "debug_assert")
 set(_DEPS_pqrs_cf_array "pqrs_cf_cf_ptr")
+set(_DEPS_pqrs_cf_bundle "pqrs_cf_url")
 set(_DEPS_pqrs_cf_dictionary "pqrs_cf_cf_ptr")
 set(_DEPS_pqrs_cf_json
   "pqrs_cf_array"
