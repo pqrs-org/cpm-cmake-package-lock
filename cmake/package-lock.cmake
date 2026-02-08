@@ -107,6 +107,10 @@ set(_FILES_pqrs_osx_workspace
   "include -> /"
   "src -> /"
 )
+set(_FILES_pqrs_spdlog
+  "include/pqrs -> /include"
+  "src/spdlog-build -> /src/spdlog-build"
+)
 set(_FILES_spdlog
   "include -> /"
   "src -> /src/spdlog"
