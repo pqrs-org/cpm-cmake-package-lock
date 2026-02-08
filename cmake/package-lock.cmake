@@ -107,4 +107,8 @@ set(_FILES_pqrs_osx_workspace
   "include -> /"
   "src -> /"
 )
+set(_FILES_spdlog
+  "include -> /"
+  "src -> /src/spdlog"
+)
 set(_FILES_utfcpp "source -> include/utf8cpp")
