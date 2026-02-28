@@ -64,6 +64,10 @@ set(_DEPS_pqrs_osx_frontmost_application_monitor
   "pqrs_dispatcher"
   "pqrs_hash"
 )
+set(_DEPS_pqrs_osx_hitoolbox
+  "nod"
+  "pqrs_dispatcher"
+)
 set(_DEPS_pqrs_osx_input_source
   "pqrs_cf_array"
   "pqrs_cf_dictionary"
