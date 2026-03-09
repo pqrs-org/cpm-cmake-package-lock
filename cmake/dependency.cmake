@@ -39,7 +39,12 @@ set(_DEPS_pqrs_local_datagram
 )
 set(_DEPS_pqrs_osx_accessibility "pqrs_cf_dictionary")
 set(_DEPS_pqrs_osx_cg_display "pqrs_osx_cg_event")
-set(_DEPS_pqrs_osx_cg_event "pqrs_cf_cf_ptr")
+set(_DEPS_pqrs_osx_cg_event
+  "pqrs_cf_cf_ptr"
+  "pqrs_hid"
+  "pqrs_osx_iokit_types"
+  "type_safe"
+)
 set(_DEPS_pqrs_osx_chrono
   "pqrs_json"
   "type_safe"
