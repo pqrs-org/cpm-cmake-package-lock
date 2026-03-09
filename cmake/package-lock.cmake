@@ -1,7 +1,7 @@
 # To perform `git clone` only when necessary, we declare the package using CPMDeclarePackage here,
 # and call CPMAddPackage only when it is actually needed.
 
-CPMDeclarePackage(asio                                        NAME asio                                        GITHUB_REPOSITORY chriskohlhoff/asio                                  GIT_TAG asio-1-36-0                                 DOWNLOAD_ONLY true)
+CPMDeclarePackage(asio                                        NAME asio                                        GITHUB_REPOSITORY chriskohlhoff/asio                                  GIT_TAG asio-1-38-0                                 DOWNLOAD_ONLY true)
 CPMDeclarePackage(cxxopts                                     NAME cxxopts                                     GITHUB_REPOSITORY jarro2783/cxxopts                                   GIT_TAG v3.3.1                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(debug_assert                                NAME debug_assert                                GITHUB_REPOSITORY foonathan/debug_assert                              GIT_TAG v1.3.4                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(eternal                                     NAME eternal                                     GITHUB_REPOSITORY mapbox/eternal                                      GIT_TAG v1.0.1                                      DOWNLOAD_ONLY true)
@@ -57,7 +57,7 @@ CPMDeclarePackage(pqrs_osx_iokit_power_management             NAME pqrs_osx_ioki
 CPMDeclarePackage(pqrs_osx_iokit_registry_entry               NAME pqrs_osx_iokit_registry_entry               GITHUB_REPOSITORY pqrs-org/cpp-osx-iokit_registry_entry               GIT_TAG v3.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_iokit_return                       NAME pqrs_osx_iokit_return                       GITHUB_REPOSITORY pqrs-org/cpp-osx-iokit_return                       GIT_TAG v1.3.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_iokit_service_monitor              NAME pqrs_osx_iokit_service_monitor              GITHUB_REPOSITORY pqrs-org/cpp-osx-iokit_service_monitor              GIT_TAG v6.0.0                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(pqrs_osx_iokit_types                        NAME pqrs_osx_iokit_types                        GITHUB_REPOSITORY pqrs-org/cpp-osx-iokit_types                        GIT_TAG v6.2.0                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_osx_iokit_types                        NAME pqrs_osx_iokit_types                        GITHUB_REPOSITORY pqrs-org/cpp-osx-iokit_types                        GIT_TAG v6.3.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_json_file_monitor                  NAME pqrs_osx_json_file_monitor                  GITHUB_REPOSITORY pqrs-org/cpp-osx-json_file_monitor                  GIT_TAG v1.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_kern_return                        NAME pqrs_osx_kern_return                        GITHUB_REPOSITORY pqrs-org/cpp-osx-kern_return                        GIT_TAG v1.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_launch_services                    NAME pqrs_osx_launch_services                    GITHUB_REPOSITORY pqrs-org/cpp-osx-launch_services                    GIT_TAG v1.1.0                                      DOWNLOAD_ONLY true)
