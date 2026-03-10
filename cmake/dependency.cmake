@@ -43,6 +43,7 @@ set(_DEPS_pqrs_osx_cg_event
   "pqrs_cf_cf_ptr"
   "pqrs_hid"
   "pqrs_osx_iokit_types"
+  "ethernal"
   "type_safe"
 )
 set(_DEPS_pqrs_osx_chrono
