@@ -96,6 +96,10 @@ set(_FILES_exprtk "exprtk.hpp -> include/exprtk/exprtk.hpp")
 set(_FILES_glob "single_include/glob/glob.hpp -> include/glob/glob.hpp")
 set(_FILES_gsl "include/gsl -> include/gsl")
 set(_FILES_natural_sort "natural_sort.hpp -> include/natural_sort.hpp")
+set(_FILES_pqrs_osx_cg_event
+  "include -> /"
+  "src -> /"
+)
 set(_FILES_pqrs_osx_frontmost_application_monitor
   "include -> /"
   "src -> /"
