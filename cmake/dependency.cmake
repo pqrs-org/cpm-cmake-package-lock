@@ -41,6 +41,7 @@ set(_DEPS_pqrs_osx_accessibility
   "nod"
   "pqrs_cf_dictionary"
   "pqrs_dispatcher"
+  "pqrs_gsl"
 )
 set(_DEPS_pqrs_osx_cg_display "pqrs_osx_cg_event")
 set(_DEPS_pqrs_osx_cg_event
