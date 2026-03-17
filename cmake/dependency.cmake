@@ -37,7 +37,11 @@ set(_DEPS_pqrs_local_datagram
   "pqrs_dispatcher"
   "pqrs_gsl"
 )
-set(_DEPS_pqrs_osx_accessibility "pqrs_cf_dictionary")
+set(_DEPS_pqrs_osx_accessibility
+  "nod"
+  "pqrs_cf_dictionary"
+  "pqrs_dispatcher"
+)
 set(_DEPS_pqrs_osx_cg_display "pqrs_osx_cg_event")
 set(_DEPS_pqrs_osx_cg_event
   "pqrs_cf_cf_ptr"
