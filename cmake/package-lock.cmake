@@ -31,8 +31,8 @@ CPMDeclarePackage(pqrs_hash                                   NAME pqrs_hash    
 CPMDeclarePackage(pqrs_hid                                    NAME pqrs_hid                                    GITHUB_REPOSITORY pqrs-org/cpp-hid                                    GIT_TAG v2.21.0                                     DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_json                                   NAME pqrs_json                                   GITHUB_REPOSITORY pqrs-org/cpp-json                                   GIT_TAG v1.7.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_local_datagram                         NAME pqrs_local_datagram                         GITHUB_REPOSITORY pqrs-org/cpp-local_datagram                         GIT_TAG v10.1.0                                     DOWNLOAD_ONLY true)
-CPMDeclarePackage(pqrs_osx_application                        NAME pqrs_osx_application                        GITHUB_REPOSITORY pqrs-org/cpp-osx-application                        GIT_TAG v1.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_accessibility                      NAME pqrs_osx_accessibility                      GITHUB_REPOSITORY pqrs-org/cpp-osx-accessibility                      GIT_TAG v3.0.0                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_osx_application                        NAME pqrs_osx_application                        GITHUB_REPOSITORY pqrs-org/cpp-osx-application                        GIT_TAG v1.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_cg_display                         NAME pqrs_osx_cg_display                         GITHUB_REPOSITORY pqrs-org/cpp-osx-cg_display                         GIT_TAG v1.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_cg_event                           NAME pqrs_osx_cg_event                           GITHUB_REPOSITORY pqrs-org/cpp-osx-cg_event                           GIT_TAG v2.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_chrono                             NAME pqrs_osx_chrono                             GITHUB_REPOSITORY pqrs-org/cpp-osx-chrono                             GIT_TAG v2.3.0                                      DOWNLOAD_ONLY true)
@@ -97,11 +97,11 @@ set(_FILES_exprtk "exprtk.hpp -> include/exprtk/exprtk.hpp")
 set(_FILES_glob "single_include/glob/glob.hpp -> include/glob/glob.hpp")
 set(_FILES_gsl "include/gsl -> include/gsl")
 set(_FILES_natural_sort "natural_sort.hpp -> include/natural_sort.hpp")
-set(_FILES_pqrs_osx_application
+set(_FILES_pqrs_osx_accessibility
   "include -> /"
   "src -> /"
 )
-set(_FILES_pqrs_osx_accessibility
+set(_FILES_pqrs_osx_application
   "include -> /"
   "src -> /"
 )
