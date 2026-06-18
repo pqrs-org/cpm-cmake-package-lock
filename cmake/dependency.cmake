@@ -14,6 +14,7 @@ set(_DEPS_pqrs_cf_json
 set(_DEPS_pqrs_cf_number "pqrs_cf_cf_ptr")
 set(_DEPS_pqrs_cf_run_loop_thread
   "pqrs_cf_cf_ptr"
+  "pqrs_gsl"
   "pqrs_thread_wait"
 )
 set(_DEPS_pqrs_cf_set "pqrs_cf_cf_ptr")
