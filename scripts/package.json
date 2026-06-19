@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "@octokit/rest": "^21.1.1",
-    "tsx": "^4.20.5"
+    "tsx": "^4.22.4"
   },
   "devDependencies": {
-    "@types/node": "^22.18.3"
+    "@types/node": "^22.19.21"
   }
 }
