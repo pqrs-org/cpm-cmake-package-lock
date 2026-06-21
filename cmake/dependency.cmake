@@ -199,6 +199,7 @@ set(_DEPS_pqrs_osx_system_preferences
   "pqrs_cf_string"
   "pqrs_hash"
   "pqrs_hid"
+  "pqrs_osx_iokit_object_ptr"
   "pqrs_osx_iokit_types"
   "pqrs_osx_kern_return"
 )
