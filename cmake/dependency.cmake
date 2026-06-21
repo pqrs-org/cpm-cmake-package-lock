@@ -75,6 +75,7 @@ set(_DEPS_pqrs_osx_file_monitor
 set(_DEPS_pqrs_osx_frontmost_application_monitor
   "nod"
   "pqrs_dispatcher"
+  "pqrs_gsl"
   "pqrs_hash"
 )
 set(_DEPS_pqrs_osx_hitoolbox
