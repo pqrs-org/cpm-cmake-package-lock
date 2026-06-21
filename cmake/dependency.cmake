@@ -186,7 +186,6 @@ set(_DEPS_pqrs_osx_machine
   "pqrs_cf_string"
   "type_safe"
 )
-set(_DEPS_pqrs_osx_process_info "pqrs_cf_string")
 set(_DEPS_pqrs_osx_session
   "nod"
   "pqrs_cf_boolean"
