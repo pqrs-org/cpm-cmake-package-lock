@@ -58,9 +58,12 @@ set(_DEPS_pqrs_osx_chrono
 )
 set(_DEPS_pqrs_osx_codesign
   "pqrs_cf_array"
+  "pqrs_cf_cf_ptr"
   "pqrs_cf_dictionary"
   "pqrs_cf_number"
   "pqrs_cf_string"
+  "pqrs_cf_url"
+  "type_safe"
 )
 set(_DEPS_pqrs_osx_file_monitor
   "nod"
@@ -77,6 +80,7 @@ set(_DEPS_pqrs_osx_frontmost_application_monitor
   "pqrs_dispatcher"
   "pqrs_gsl"
   "pqrs_hash"
+  "pqrs_json"
 )
 set(_DEPS_pqrs_osx_hitoolbox
   "nod"
@@ -104,6 +108,7 @@ set(_DEPS_pqrs_osx_iokit_hid_device
   "pqrs_cf_array"
   "pqrs_cf_string"
   "pqrs_hid"
+  "pqrs_osx_iokit_object_ptr"
   "pqrs_osx_iokit_registry_entry"
   "pqrs_osx_iokit_types"
 )
@@ -117,6 +122,7 @@ set(_DEPS_pqrs_osx_iokit_hid_device_report_monitor
   "pqrs_dispatcher"
   "pqrs_osx_iokit_hid_device"
   "pqrs_osx_iokit_return"
+  "pqrs_osx_iokit_types"
 )
 set(_DEPS_pqrs_osx_iokit_hid_element
   "pqrs_cf_cf_ptr"
@@ -139,6 +145,7 @@ set(_DEPS_pqrs_osx_iokit_hid_queue_value_monitor
   "pqrs_dispatcher"
   "pqrs_osx_iokit_hid_device"
   "pqrs_osx_iokit_return"
+  "pqrs_osx_iokit_types"
 )
 set(_DEPS_pqrs_osx_iokit_hid_system
   "eternal"
@@ -147,9 +154,17 @@ set(_DEPS_pqrs_osx_iokit_hid_system
 )
 set(_DEPS_pqrs_osx_iokit_hid_value
   "pqrs_hid"
+  "pqrs_json"
   "pqrs_osx_chrono"
   "pqrs_osx_iokit_hid_element"
-  "pqrs_osx_iokit_types"
+)
+set(_DEPS_pqrs_osx_iokit_power_management
+  "nod"
+  "pqrs_cf_run_loop_thread"
+  "pqrs_dispatcher"
+  "pqrs_osx_iokit_return"
+  "pqrs_osx_kern_return"
+  "pqrs_thread_wait"
 )
 set(_DEPS_pqrs_osx_iokit_iterator "pqrs_osx_iokit_object_ptr")
 set(_DEPS_pqrs_osx_iokit_object_ptr "pqrs_osx_kern_return")
@@ -177,7 +192,10 @@ set(_DEPS_pqrs_osx_json_file_monitor
   "nlohmann_json"
   "pqrs_osx_file_monitor"
 )
-set(_DEPS_pqrs_osx_launch_services "pqrs_cf_string")
+set(_DEPS_pqrs_osx_launch_services
+  "pqrs_cf_cf_ptr"
+  "pqrs_cf_string"
+)
 set(_DEPS_pqrs_osx_launchctl
   "pqrs_process"
   "pqrs_string"
@@ -185,6 +203,7 @@ set(_DEPS_pqrs_osx_launchctl
 )
 set(_DEPS_pqrs_osx_machine
   "pqrs_cf_string"
+  "pqrs_osx_iokit_object_ptr"
   "type_safe"
 )
 set(_DEPS_pqrs_osx_session
@@ -200,6 +219,7 @@ set(_DEPS_pqrs_osx_system_preferences
   "pqrs_cf_string"
   "pqrs_hash"
   "pqrs_hid"
+  "pqrs_json"
   "pqrs_osx_iokit_object_ptr"
   "pqrs_osx_iokit_types"
   "pqrs_osx_kern_return"
