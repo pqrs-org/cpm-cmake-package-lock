@@ -71,7 +71,6 @@ set(_DEPS_pqrs_osx_file_monitor
   "pqrs_cf_string"
   "pqrs_dispatcher"
   "pqrs_environment_variable"
-  "pqrs_filesystem"
   "pqrs_gsl"
   "type_safe"
 )
