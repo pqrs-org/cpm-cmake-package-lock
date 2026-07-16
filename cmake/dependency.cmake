@@ -205,6 +205,11 @@ set(_DEPS_pqrs_osx_machine
   "pqrs_osx_iokit_object_ptr"
   "type_safe"
 )
+set(_DEPS_pqrs_osx_process_codesign_monitor
+  "nod"
+  "pqrs_dispatcher"
+  "pqrs_osx_codesign"
+)
 set(_DEPS_pqrs_osx_session
   "nod"
   "pqrs_cf_boolean"
