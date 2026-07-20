@@ -1,7 +1,7 @@
 # To perform `git clone` only when necessary, we declare the package using CPMDeclarePackage here,
 # and call CPMAddPackage only when it is actually needed.
 
-CPMDeclarePackage(asio                                        NAME asio                                        GITHUB_REPOSITORY chriskohlhoff/asio                                  GIT_TAG asio-1-38-1                                 DOWNLOAD_ONLY true)
+CPMDeclarePackage(asio                                        NAME asio                                        GITHUB_REPOSITORY chriskohlhoff/asio                                  GIT_TAG asio-1-38-2                                 DOWNLOAD_ONLY true)
 CPMDeclarePackage(cxxopts                                     NAME cxxopts                                     GITHUB_REPOSITORY jarro2783/cxxopts                                   GIT_TAG v3.3.1                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(debug_assert                                NAME debug_assert                                GITHUB_REPOSITORY foonathan/debug_assert                              GIT_TAG v1.3.4                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(eternal                                     NAME eternal                                     GITHUB_REPOSITORY mapbox/eternal                                      GIT_TAG v1.0.1                                      DOWNLOAD_ONLY true)
@@ -77,7 +77,7 @@ CPMDeclarePackage(pqrs_sign                                   NAME pqrs_sign    
 CPMDeclarePackage(pqrs_spdlog                                 NAME pqrs_spdlog                                 GITHUB_REPOSITORY pqrs-org/cpp-spdlog                                 GIT_TAG v3.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_string                                 NAME pqrs_string                                 GITHUB_REPOSITORY pqrs-org/cpp-string                                 GIT_TAG v2.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_thread_wait                            NAME pqrs_thread_wait                            GITHUB_REPOSITORY pqrs-org/cpp-thread_wait                            GIT_TAG v2.2.0                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(pqrs_unix_domain_stream                     NAME pqrs_unix_domain_stream                     GITHUB_REPOSITORY pqrs-org/cpp-unix_domain_stream                     GIT_TAG v3.0.0                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_unix_domain_stream                     NAME pqrs_unix_domain_stream                     GITHUB_REPOSITORY pqrs-org/cpp-unix_domain_stream                     GIT_TAG v3.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_weakify                                NAME pqrs_weakify                                GITHUB_REPOSITORY pqrs-org/objc-weakify                               GIT_TAG v1.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(spdlog                                      NAME spdlog                                      GITHUB_REPOSITORY gabime/spdlog                                       GIT_TAG v1.17.0                                     DOWNLOAD_ONLY true)
 CPMDeclarePackage(type_safe                                   NAME type_safe                                   GITHUB_REPOSITORY foonathan/type_safe                                 GIT_TAG v0.2.4                                      DOWNLOAD_ONLY true)
