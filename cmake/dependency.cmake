@@ -52,6 +52,9 @@ set(_DEPS_pqrs_osx_cg_event
   "eternal"
   "type_safe"
 )
+set(_DEPS_pqrs_osx_cg_event_tap
+  "pqrs_cf_cf_ptr"
+)
 set(_DEPS_pqrs_osx_chrono
   "pqrs_json"
   "type_safe"
