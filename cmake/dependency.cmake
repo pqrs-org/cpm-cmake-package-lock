@@ -141,7 +141,7 @@ set(_DEPS_pqrs_osx_iokit_hid_manager
   "pqrs_hid"
   "pqrs_osx_iokit_service_monitor"
 )
-set(_DEPS_pqrs_osx_iokit_hid_queue_value_monitor
+set(_DEPS_pqrs_osx_iokit_hid_device_events_monitor
   "nod"
   "pqrs_cf_run_loop_thread"
   "pqrs_dispatcher"
