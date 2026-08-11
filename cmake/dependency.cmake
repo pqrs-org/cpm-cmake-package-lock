@@ -145,6 +145,7 @@ set(_DEPS_pqrs_osx_iokit_hid_device_events_monitor
   "nod"
   "pqrs_cf_run_loop_thread"
   "pqrs_dispatcher"
+  "pqrs_osx_chrono"
   "pqrs_osx_iokit_hid_device"
   "pqrs_osx_iokit_return"
   "pqrs_osx_iokit_types"
