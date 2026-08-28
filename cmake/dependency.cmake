@@ -253,7 +253,6 @@ set(_DEPS_pqrs_spdlog
   "spdlog"
   "utfcpp"
 )
-set(_DEPS_pqrs_string "utfcpp")
 set(_DEPS_pqrs_unix_domain_stream
   "asio"
   "nod"
