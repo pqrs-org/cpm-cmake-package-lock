@@ -251,7 +251,6 @@ set(_DEPS_pqrs_spdlog
   "pqrs_dispatcher"
   "pqrs_gsl"
   "spdlog"
-  "utfcpp"
 )
 set(_DEPS_pqrs_unix_domain_stream
   "asio"

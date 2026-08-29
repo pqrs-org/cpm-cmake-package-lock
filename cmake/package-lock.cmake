@@ -75,7 +75,7 @@ CPMDeclarePackage(pqrs_osx_workspace                          NAME pqrs_osx_work
 CPMDeclarePackage(pqrs_process                                NAME pqrs_process                                GITHUB_REPOSITORY pqrs-org/cpp-process                                GIT_TAG v2.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_regex                                  NAME pqrs_regex                                  GITHUB_REPOSITORY pqrs-org/cpp-regex                                  GIT_TAG v1.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_sign                                   NAME pqrs_sign                                   GITHUB_REPOSITORY pqrs-org/cpp-sign                                   GIT_TAG v1.1.0                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(pqrs_spdlog                                 NAME pqrs_spdlog                                 GITHUB_REPOSITORY pqrs-org/cpp-spdlog                                 GIT_TAG v3.1.0                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_spdlog                                 NAME pqrs_spdlog                                 GITHUB_REPOSITORY pqrs-org/cpp-spdlog                                 GIT_TAG v3.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_string                                 NAME pqrs_string                                 GITHUB_REPOSITORY pqrs-org/cpp-string                                 GIT_TAG v2.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_thread_wait                            NAME pqrs_thread_wait                            GITHUB_REPOSITORY pqrs-org/cpp-thread_wait                            GIT_TAG v2.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_unix_domain_stream                     NAME pqrs_unix_domain_stream                     GITHUB_REPOSITORY pqrs-org/cpp-unix_domain_stream                     GIT_TAG v3.1.0                                      DOWNLOAD_ONLY true)
@@ -83,7 +83,6 @@ CPMDeclarePackage(pqrs_weakify                                NAME pqrs_weakify 
 CPMDeclarePackage(spdlog                                      NAME spdlog                                      GITHUB_REPOSITORY gabime/spdlog                                       GIT_TAG v1.17.0                                     DOWNLOAD_ONLY true)
 CPMDeclarePackage(type_safe                                   NAME type_safe                                   GITHUB_REPOSITORY foonathan/type_safe                                 GIT_TAG v0.2.4                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(ut                                          NAME ut                                          GITHUB_REPOSITORY boost-ext/ut                                        GIT_TAG v2.3.1                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(utfcpp                                      NAME utfcpp                                      GITHUB_REPOSITORY nemtrif/utfcpp                                      GIT_TAG v4.2.0                                      DOWNLOAD_ONLY true)
 
 #
 # Extra Package Info
@@ -131,4 +130,3 @@ set(_FILES_spdlog
   "include -> /"
   "src -> /src/spdlog"
 )
-set(_FILES_utfcpp "source -> include/utf8cpp")
