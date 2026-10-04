@@ -22,6 +22,7 @@ set(_DEPS_pqrs_cf_string "pqrs_cf_cf_ptr")
 set(_DEPS_pqrs_cf_url "pqrs_cf_string")
 set(_DEPS_pqrs_dispatcher "pqrs_thread_wait")
 set(_DEPS_pqrs_environment_variable "pqrs_string")
+set(_DEPS_pqrs_filesystem "pqrs_gsl")
 set(_DEPS_pqrs_gsl "gsl")
 set(_DEPS_pqrs_hid
   "pqrs_hash"
@@ -74,6 +75,7 @@ set(_DEPS_pqrs_osx_file_monitor
   "pqrs_cf_string"
   "pqrs_dispatcher"
   "pqrs_environment_variable"
+  "pqrs_filesystem"
   "pqrs_gsl"
   "type_safe"
 )
