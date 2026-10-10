@@ -240,6 +240,11 @@ set(_DEPS_pqrs_osx_system_preferences_monitor
   "pqrs_gsl"
   "pqrs_osx_system_preferences"
 )
+set(_DEPS_pqrs_osx_xpc
+  "nod"
+  "pqrs_dispatcher"
+  "pqrs_gsl"
+)
 set(_DEPS_pqrs_process
   "nod"
   "pqrs_dispatcher"
