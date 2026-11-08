@@ -1,7 +1,7 @@
 # To perform `git clone` only when necessary, we declare the package using CPMDeclarePackage here,
 # and call CPMAddPackage only when it is actually needed.
 
-CPMDeclarePackage(asio                                        NAME asio                                        GITHUB_REPOSITORY chriskohlhoff/asio                                  GIT_TAG asio-1-38-2                                 DOWNLOAD_ONLY true)
+CPMDeclarePackage(asio                                        NAME asio                                        GITHUB_REPOSITORY chriskohlhoff/asio                                  GIT_TAG asio-1-39-0                                 DOWNLOAD_ONLY true)
 CPMDeclarePackage(cxxopts                                     NAME cxxopts                                     GITHUB_REPOSITORY jarro2783/cxxopts                                   GIT_TAG v3.3.1                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(debug_assert                                NAME debug_assert                                GITHUB_REPOSITORY foonathan/debug_assert                              GIT_TAG v1.3.4                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(eternal                                     NAME eternal                                     GITHUB_REPOSITORY mapbox/eternal                                      GIT_TAG v1.0.1                                      DOWNLOAD_ONLY true)
@@ -18,11 +18,11 @@ CPMDeclarePackage(pqrs_cf_cf_ptr                              NAME pqrs_cf_cf_pt
 CPMDeclarePackage(pqrs_cf_dictionary                          NAME pqrs_cf_dictionary                          GITHUB_REPOSITORY pqrs-org/cpp-cf-dictionary                          GIT_TAG v1.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_cf_json                                NAME pqrs_cf_json                                GITHUB_REPOSITORY pqrs-org/cpp-cf-json                                GIT_TAG v2.3.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_cf_number                              NAME pqrs_cf_number                              GITHUB_REPOSITORY pqrs-org/cpp-cf-number                              GIT_TAG v2.2.0                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(pqrs_cf_run_loop_thread                     NAME pqrs_cf_run_loop_thread                     GITHUB_REPOSITORY pqrs-org/cpp-cf-run_loop_thread                     GIT_TAG v3.1.0                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_cf_run_loop_thread                     NAME pqrs_cf_run_loop_thread                     GITHUB_REPOSITORY pqrs-org/cpp-cf-run_loop_thread                     GIT_TAG v3.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_cf_set                                 NAME pqrs_cf_set                                 GITHUB_REPOSITORY pqrs-org/cpp-cf-set                                 GIT_TAG v1.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_cf_string                              NAME pqrs_cf_string                              GITHUB_REPOSITORY pqrs-org/cpp-cf-string                              GIT_TAG v2.2.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_cf_url                                 NAME pqrs_cf_url                                 GITHUB_REPOSITORY pqrs-org/cpp-cf-url                                 GIT_TAG v1.2.0                                      DOWNLOAD_ONLY true)
-CPMDeclarePackage(pqrs_dispatcher                             NAME pqrs_dispatcher                             GITHUB_REPOSITORY pqrs-org/cpp-dispatcher                             GIT_TAG v2.22.0                                     DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_dispatcher                             NAME pqrs_dispatcher                             GITHUB_REPOSITORY pqrs-org/cpp-dispatcher                             GIT_TAG v2.23.0                                     DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_environment_variable                   NAME pqrs_environment_variable                   GITHUB_REPOSITORY pqrs-org/cpp-environment_variable                   GIT_TAG v2.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_filesystem                             NAME pqrs_filesystem                             GITHUB_REPOSITORY pqrs-org/cpp-filesystem                             GIT_TAG v4.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_gcd                                    NAME pqrs_gcd                                    GITHUB_REPOSITORY pqrs-org/cpp-gcd                                    GIT_TAG v1.4.0                                      DOWNLOAD_ONLY true)
@@ -32,6 +32,7 @@ CPMDeclarePackage(pqrs_hid                                    NAME pqrs_hid     
 CPMDeclarePackage(pqrs_json                                   NAME pqrs_json                                   GITHUB_REPOSITORY pqrs-org/cpp-json                                   GIT_TAG v1.8.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_local_datagram                         NAME pqrs_local_datagram                         GITHUB_REPOSITORY pqrs-org/cpp-local_datagram                         GIT_TAG v10.7.0                                     DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_accessibility                      NAME pqrs_osx_accessibility                      GITHUB_REPOSITORY pqrs-org/cpp-osx-accessibility                      GIT_TAG v4.6.0                                      DOWNLOAD_ONLY true)
+CPMDeclarePackage(pqrs_osx_autorelease_pool                   NAME pqrs_osx_autorelease_pool                   GITHUB_REPOSITORY pqrs-org/cpp-osx-autorelease_pool                   GIT_TAG v1.0.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_application                        NAME pqrs_osx_application                        GITHUB_REPOSITORY pqrs-org/cpp-osx-application                        GIT_TAG v2.1.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_cg_display                         NAME pqrs_osx_cg_display                         GITHUB_REPOSITORY pqrs-org/cpp-osx-cg_display                         GIT_TAG v1.3.0                                      DOWNLOAD_ONLY true)
 CPMDeclarePackage(pqrs_osx_cg_event                           NAME pqrs_osx_cg_event                           GITHUB_REPOSITORY pqrs-org/cpp-osx-cg_event                           GIT_TAG v2.2.0                                      DOWNLOAD_ONLY true)
@@ -100,6 +101,10 @@ set(_FILES_glob "single_include/glob/glob.hpp -> include/glob/glob.hpp")
 set(_FILES_gsl "include/gsl -> include/gsl")
 set(_FILES_natural_sort "natural_sort.hpp -> include/natural_sort.hpp")
 set(_FILES_pqrs_osx_accessibility
+  "include -> /"
+  "src -> /"
+)
+set(_FILES_pqrs_osx_autorelease_pool
   "include -> /"
   "src -> /"
 )
